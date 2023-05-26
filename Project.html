@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripMa</title>
+</head>
+<!-- <link href="https://fonts.google.com/specimen/Poppins/about?query=Indian+Type+Foundry" rel="stylesheet"> -->
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg212.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 35px;
+        top: 22px;
+        display: inline-block;
+        backdrop-filter: blur(4px);
+
+
+    }
+
+    .left img {
+        width: 140px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 22px;
+        display: inline-block;
+        /* border: 2px solid yellowgreen; */
+        backdrop-filter: blur(4px);
+        padding: 10px 5px;
+        /* border: 1px solid white; */
+        /* border-radius: 10px; */
+
+    }
+
+    .centre {
+        display: block;
+        width: 55%;
+        margin: 29px auto;
+        border: 2px solid blueviolet;
+        background-color: #2c2929;
+        backdrop-filter: blur(50px);
+        border: 2px solid grey;
+        border-radius: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        /* color:white; */
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 150px 42px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: #2c2929;
+        color: white;
+        padding: 5px 15px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 1px solid #5c3939;
+        background-blend-mode: color-burn 10%;
+        backdrop-filter: blur(4px);
+        margin: 122px 421px;
+        padding: 71px;
+        width: 36%;
+        border-radius: 55px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+        /* background-color: #1263b921; */
+        border: 1px solid #5c3939;
+        border-radius: 20px;
+    }
+
+    .container button {
+        display: block;
+        width: 40%;
+        margin: 25px auto;
+    }
+
+    .anra {
+        background-color: black;
+        border-radius: 10px;
+        color: #e3b61eed;
+    }
+</style>
+
+<body>
+    <header class="class">
+        <div class="left">
+            <img src="img\tripma-high-resolution-logo-color-on-transparent-background.png" alt="">
+            <div class="anra">-by ANRA</div>
+        </div>
+        <div class="centre">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Trip planner</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Find the Adventure of a lifetime
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Destination">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Adventure type">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Min price">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Max price">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
