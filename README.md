@@ -14,7 +14,7 @@ Features
 Usage
 
     Clone the repository
-    Open the index.html file in a web browser.
+    Open the Project.html file in a web browser.
     Enter your desired destination, adventure type, and price range in the provided input fields.
     Click the "Submit" button to see the search results.
 
